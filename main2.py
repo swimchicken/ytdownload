@@ -1,3 +1,4 @@
+
 import youtube_dl
 
 # 定義YouTube影片的網址
@@ -10,3 +11,9 @@ ydl_opts = {
 }
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([video_url])
+
+
+
+'''
+編寫中
+'''
